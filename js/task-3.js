@@ -1,11 +1,11 @@
 function checkForSpam(message) {
     let messageLowerCase = message.toLowerCase();
-    if(messageLowerCase.indexOf("spam") > 0)
+    if(messageLowerCase.indexOf("spam") >= 0)
     {
         return true;
     }
 
-    if(messageLowerCase.indexOf("sale") > 0)
+    if(messageLowerCase.indexOf("sale") >= 0)
     {
         return true;
     }
